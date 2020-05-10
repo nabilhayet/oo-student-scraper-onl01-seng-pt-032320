@@ -45,7 +45,7 @@ end
     profile[:bio] = doc.css("div.bio-content.content-holder div.description-holder p").text
 
     profile
-  
+  end 
 
     def self.movie
       html = open("https://www.afi.com/afis-100-years-100-movies/")
