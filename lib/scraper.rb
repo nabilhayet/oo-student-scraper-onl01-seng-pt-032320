@@ -46,4 +46,13 @@ end
 
     profile
   end
+
+
+def self.movie
+  html = open("https://www.afi.com/afis-100-years-100-movies/")
+  doc = Nokogiri::HTML(html)
+  Post = doc.css(".row")
+  binding.pry
+
+end
 end 
