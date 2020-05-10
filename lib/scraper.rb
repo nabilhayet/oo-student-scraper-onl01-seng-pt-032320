@@ -52,6 +52,6 @@ end
       doc = Nokogiri::HTML(html)
       Post = doc.css(".row")
       binding.pry 
-    
-    end 
+
+    end
 end
