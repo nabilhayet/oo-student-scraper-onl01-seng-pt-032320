@@ -44,11 +44,6 @@ end
     profile[:profile_quote] = doc.css(".profile-quote").text
     profile[:bio] = doc.css("div.bio-content.content-holder div.description-holder p").text
 
-    html1 = open("https://www.afi.com/afis-100-years-100-movies/")
-    doc1 = Nokogiri::HTML(html1)
-    Post = doc1.css(".row")
-    binding.pry
-
     profile
 
   end
