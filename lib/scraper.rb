@@ -55,4 +55,4 @@ def self.movie
   binding.pry
 
 end
-end 
+end
