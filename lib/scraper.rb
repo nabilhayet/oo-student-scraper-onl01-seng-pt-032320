@@ -46,4 +46,7 @@ end
 
     profile
     end
+
+    def self.movie
+    end 
 end
