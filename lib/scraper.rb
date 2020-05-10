@@ -46,7 +46,7 @@ end
 
     profile
   end
-
+end 
 
 def self.movie
   html = open("https://www.afi.com/afis-100-years-100-movies/")
